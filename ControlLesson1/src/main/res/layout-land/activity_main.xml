@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="489dp"
+        android:layout_height="98dp"
+        android:text="Знакомства.ру"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="1074dp"
+        android:layout_height="392dp"
+        android:text="Нажми на кнопку, получишь результат"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="1426dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="210dp"
+        android:layout_height="207dp"
+        android:layout_marginEnd="40dp"
+        android:scrollbarSize="100dp"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox2"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:layout_editor_absoluteY="782dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="543dp"
+        android:layout_height="183dp"
+        android:ellipsize="middle"
+        android:scrollbarSize="100dp"
+        android:text="Сохранить"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="1896dp"
+        tools:layout_editor_absoluteY="806dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Напиши сообщение"
+        android:textSize="85sp"
+        tools:layout_editor_absoluteX="1445dp"
+        tools:layout_editor_absoluteY="1065dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/photo_2025_03_09_18_32_04"
+        tools:layout_editor_absoluteX="212dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
